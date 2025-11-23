@@ -40,7 +40,7 @@ The website showcases my skills, projects, courses, and contact information in a
 
 ## 📸 Preview  
 You can view the website live using GitHub Pages: 
-https://abdallah-el-sawy.github.io/Codveda-Tasks/Task1-Portfolio/
+https://abdallah-el-sawy.github.io/Codveda-Tasks/Portfolio-Task1/
 Or run it locally:
 1. Download the project
 2. Open "index.html" in any browser
