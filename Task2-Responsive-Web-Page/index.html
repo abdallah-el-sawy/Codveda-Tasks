@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 3 - Interactivity - Web Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HERO SECTION -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Task 3 - Interactivity - Web Page</h1>
+        <p>basic interactivity to a web page using JavaScript with interactive elements like dropdowns, modals, and forms.</p>
+      </div>
+    </header>
+
+    <!-- LEARNING OBJECTIVES -->
+    <section class="objectives">
+      <h2 class="section-title">Learning Objectives</h2>
+
+      <div class="cards">
+    <div class="objective-card">
+      <div class="icon blue">📦</div>
+      <h3>Interactive Elements</h3>
+      <p>Create dynamic UI components like dropdowns and modals using JavaScript events.</p>
+    </div>
+
+    <div class="objective-card">
+      <div class="icon green">💻</div>
+      <h3>Event Listeners</h3>
+      <p>Master handling clicks, changes, and keyboard events for rich interactions.</p>
+    </div>
+
+    <div class="objective-card">
+      <div class="icon orange">✔️</div>
+      <h3>Form Validation</h3>
+      <p>Implement validation with real-time feedback and error messages.</p>
+    </div>
+</div>
+
+    </section>
+
+
+    <section class="container">
+
+        <!-- Dropdown -->
+        <div class="interact-card">
+            <h2>Dropdown</h2>
+            <button id="dropdownBtn" class="btn">Choose Option</button>
+            <ul id="dropdownMenu" class="dropdown">
+                <li data-value="HTML">HTML</li>
+                <li data-value="CSS">CSS</li>
+                <li data-value="JavaScript">JavaScript</li>
+            </ul>
+        </div>
+
+        <!-- Modal -->
+        <div class="interact-card">
+            <h2>Modal</h2>
+            <button id="openModal" class="btn">Open Modal</button>
+        </div>
+
+        <!-- Modal Window -->
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span id="closeModal" class="close">&times;</span>
+                <h2>Welcome!</h2>
+                <br />
+                <p>
+                    I am Abdallah Elsawy A full Stack Developer, 
+                    And this is Task 3 in codveda intern.
+                </p>
+            </div>
+        </div>
+
+        <!-- Form -->
+        <div class="interact-card">
+            <h2>Simple Form</h2>
+            <form id="myForm">
+                <label>Name:</label>
+                <input type="text" id="name">
+
+                <label>Email:</label>
+                <input type="email" id="email">
+
+                <label>Password:</label>
+                <input type="password" id="password">
+
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+            <p id="formMessage" class="message"></p>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+
+    <footer class="footer">
+        <p>© 2025 Abdallah Elsawy — All Rights Reserved</p>
+    </footer>
+
+
+
+  </body>
+</html>
