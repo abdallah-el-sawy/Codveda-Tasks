@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    width: 90%;
+    max-width: 550px;
+    margin: 60px auto;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.app-title {
+    text-align: center;
+    color: #0077b6;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.input-group {
+    display: flex;
+    gap: 10px;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #cbd6e0;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #0077b6;
+}
+
+.add-btn {
+    padding: 12px 20px;
+    background: #0077b6;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.add-btn:hover {
+    background: #005f8a;
+}
+
+.task-list {
+    margin-top: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background: #f8fbff;
+    padding: 12px 15px;
+    border-radius: 12px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid #0077b6;
+}
+
+.task-item.completed {
+    text-decoration: line-through;
+    opacity: 0.6;
+    border-left-color: #2a9d8f;
+}
+
+.task-text {
+    flex: 1;
+}
+
+.complete-btn,
+.delete-btn {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-left: 8px;
+    font-size: 13px;
+}
+
+.complete-btn {
+    background: #2a9d8f;
+    color: #fff;
+}
+
+.complete-btn:hover {
+    background: #1f7a6f;
+}
+
+.delete-btn {
+    background: #e63946;
+    color: #fff;
+}
+
+.delete-btn:hover {
+    background: #b82833;
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    background: #0077b6;
+    color: white;
+    font-size: 14px;
+    margin-top: auto;
+}
