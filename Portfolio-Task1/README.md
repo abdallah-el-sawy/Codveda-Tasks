@@ -3,7 +3,7 @@
 A simple and responsive personal portfolio website built using **HTML** and **CSS** as part of Codveda's internship tasks.  
 The website showcases my skills, projects, courses, and contact information in a clean and modern single-page layout.
 
----
+--- 
 
 ## 🚀 Features  
 - **Responsive Single-Page Design**  
